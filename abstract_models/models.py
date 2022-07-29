@@ -13,3 +13,9 @@ class Base(models.Model):
 
     class Meta:
         abstract = True
+
+class ModelA(Base):
+    """
+    Model A
+    """
+    level = models.IntegerField(null=False,blank=False)

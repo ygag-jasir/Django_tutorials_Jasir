@@ -1,7 +1,7 @@
-### Django Tutorials
+# Django Tutorials
 
-# 1. Abstract Model 
+## 1. Abstract Model 
 
-# API : 
+### API : 
 
 URL PATH : abstract_models/
