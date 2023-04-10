@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!ky_ckbp-o_z)#7d%(_2gsj+ki4v+z$8s^xkv%=tqnin7z4goe
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -40,9 +40,16 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'abstract_models',
+    'tabbypgclient',
+    'youpayclient',
+    'customizeAdmin',
+    
+    "corsheaders",
 ]
 
 MIDDLEWARE = [
+        'corsheaders.middleware.CorsMiddleware',
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -50,7 +57,12 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
+    #custome middleware
+    'abstract_models.middleware.SampleMiddleware',
+    
 ]
+CORS_ORIGIN_ALLOW_ALL = True
 
 ROOT_URLCONF = 'django_tutorials.urls'
 
@@ -124,3 +136,14 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+WAIT_LOCK_DEFAULT_TIMEOUT="10"
+WAIT_LOCK_DEFAULT_WAIT_DURATION="10"
+WAIT_LOCK_DEFAULT_MAX_RETRIES="3"
+
+YOUPAY_API_SECRET = '3da6986ff5affd632b09c81eef297d643801b9d785b54575b0058d6c250ca79d'
+
+# REDIS configurations
+REDIS_HOST =  'localhost'
+REDIS_PORT = 6379
+REDIS_LOCKS_DB =  11

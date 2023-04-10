@@ -21,6 +21,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
     path('abstract_models/', include('abstract_models.urls')),
-    path('tabbypg/', include('tabbypgclient.urls', namespace='tabbypg-webhook')),
+    
+    path('tabbypg/', include('tabbypgclient.urls')),
         
+    path('youpay/', include(('youpayclient.urls', 'youpayclient'), namespace='youpay-webhook')),
 ]

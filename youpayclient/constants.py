@@ -1,0 +1,2 @@
+
+COMMON_ENCRYPTION_KEY = 'asfjk@16r32r1234asesaeqwe374SEFT'
