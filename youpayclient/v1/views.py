@@ -20,20 +20,10 @@ class WebhookListener(APIView):
     authentication_classes = (SignatureAuthentication,)
 
     def post(self, request):
-        
-        print("Request Meta {} \n\n: ".format(request.META))
         """
         Post method to receive the data from YouPay
         """
-        
-        
         request_data = json.loads(request.data)
-        
-        request_data =     {'payment': {'product_code': 'HPCRED', 'payment_platform': 'IOS', 'ip': '115.246.244.245', 'language': 'en', 'invoice_id': 3282, 'loyalty_level': 0, 'order_reference': 'Invoice-3282|ew|ZP84HKSZ5M'}, 'order': {'amount': '1.630', 'currency': 'AED', 'service_fee': '0', 'base_amount': '1.630', 'VAT_amount': '0'}, 'customer': {'email': 'ajmal@yougotagift.com', 'phone': '', 'name': 'Muhammed Ajmal', 'registered_since': '2022-01-07 06:15:54+00:00'}, 'order_history': [], 'order_items': [], 'urls': {'success_url': 'https://ecom-wallet-ew-300.sit.yougotagift.co/payments/api/v2/youpay/success', 'failure_url': 'https://ecom-wallet-ew-300.sit.yougotagift.co/payments/api/v2/youpay/failure', 'cancel_url': 'https://ecom-wallet-ew-300.sit.yougotagift.co/payments/api/v2/youpay/cancel', 'verify_url': 'https://ecom-wallet-ew-300.sit.yougotagift.co/payments/api/v2/youpay/verify'}, 'session_id': 'P7V158852O4FID2X'}
-        
-        print("headers ",type(request.headers.keys()))
-        print("Type ",type(request_data))
-        print("DATA ",request_data)
         invoice_id = request_data.get("invoice_id")
         transaction_id = request_data.get("transaction_id")
 
@@ -49,6 +39,12 @@ class WebhookListener(APIView):
 
                 request_data["vat_amount"] = request_data.get('VAT_amount')
                 request_data["customer_ip_address"] = request_data.get('ip')
+                request_data["processing_fee"] = (
+                    request_data.get('additional_processing_fee'))
+                request_data["paid_amount"] = (
+                    request_data.get('additional_total_amount') if
+                    request_data.get('additional_total_amount') else
+                    request_data.get('amount'))
 
                 if transaction_obj:
                     serializer = YouPayClientTransactionDataSerializers(

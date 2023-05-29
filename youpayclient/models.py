@@ -20,9 +20,12 @@ class YouPayClientTransactionData(AbstractDateTime):
 
     amount = models.DecimalField(decimal_places=4, max_digits=12)
     currency = models.CharField(max_length=5, null=True, blank=True)
-    service_fee = models.DecimalField(decimal_places=4, max_digits=12)
-    base_amount = models.DecimalField(decimal_places=4, max_digits=12)
-    vat_amount = models.DecimalField(decimal_places=4, max_digits=12)
+    service_fee = models.DecimalField(decimal_places=4, max_digits=12, 
+                                      null=True, blank=True)
+    base_amount = models.DecimalField(decimal_places=4, max_digits=12, 
+                                      null=True, blank=True)
+    vat_amount = models.DecimalField(decimal_places=4, max_digits=12, 
+                                     null=True, blank=True)
 
     customer_ip_address = models.CharField(
         max_length=100, null=True, blank=True)
@@ -136,6 +139,21 @@ class YouPayClientTransactionData(AbstractDateTime):
                                           null=True, blank=True,
                                           help_text="used to store cart "
                                                     "VAT amount")
+    processing_fee = models.DecimalField(decimal_places=4, max_digits=12,
+                                         null=True, blank=True,
+                                         help_text="used to store gateway "
+                                                   "processing fee")
+    paid_amount = models.DecimalField(decimal_places=4, max_digits=12,
+                                      null=True, blank=True,
+                                      help_text="used to store gateway total "
+                                                "amount paid by customer")
+    gateway_charge = models.DecimalField(
+        decimal_places=4, max_digits=12, null=True, blank=True,
+        help_text="Used to store calculated gateway charges "
+                  "based on the configuration")
+    settlement_entity = models.CharField(
+        max_length=100, null=True, blank=True,
+        help_text="used to store settlement entity")
 
     def __str__(self):
         return str(self.transaction_id)

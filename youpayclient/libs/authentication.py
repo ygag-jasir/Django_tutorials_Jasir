@@ -38,7 +38,6 @@ class SignatureAuthentication(authentication.BaseAuthentication):
         # Translate as stated in the docs:
         # https://docs.djangoproject.com/en/1.6/ref/request-response/#django.http.HttpRequest.META
         header_name = header_name.lower()
-        print("header_name: ", header_name)
         if header_name == 'content-type':
             return 'CONTENT-TYPE'
         elif header_name == 'content-length':
@@ -90,7 +89,6 @@ class SignatureAuthentication(authentication.BaseAuthentication):
         # Check if request has a "Signature" request header.
         authorization_header = self.header_canonical('Authorization')
         sent_string = request.META.get(authorization_header)
-        print("sent_string " ,sent_string)
         if not sent_string:
             raise exceptions.AuthenticationFailed('No signature provided')
         sent_signature = self.get_signature_from_signature_string(sent_string)
