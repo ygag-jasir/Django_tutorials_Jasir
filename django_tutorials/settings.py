@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'tabbypgclient',
     'youpayclient',
     'customizeAdmin',
+    'UserApp',
     
     "corsheaders",
 ]
@@ -59,7 +60,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     
     #custome middleware
-    'abstract_models.middleware.SampleMiddleware',
+    # 'abstract_models.middleware.SampleMiddleware',
+    'abstract_models.class_based_middleware.ClassAMiddleware',
+    'abstract_models.class_based_middleware.ClassBMiddleware',
     
 ]
 CORS_ORIGIN_ALLOW_ALL = True
