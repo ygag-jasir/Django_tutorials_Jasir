@@ -1,0 +1,554 @@
+[
+    {
+        "model": "services.apiclient",
+        "pk": 1,
+        "fields": {
+            "created_at": "2022-09-15T03:35:10.462Z",
+            "updated_at": "2023-01-04T11:24:10.838Z",
+            "created_by": 2,
+            "modified_by": 2,
+            "name": "Jasir Local",
+            "api_key": "FfsZ21AKMiGSW2AaKIs00nClpyJBVgoDMgj-3Oy7nYk",
+            "api_secret": "333104a7ceea9b875fb1c537ced93beebc5c265a25f078ed56dd608812f09ff2",
+            "is_active": false,
+            "webhook_url": "https://fc57-2409-4073-2e87-5114-b986-9109-293d-5dc.ngrok.io/youpay/api/v1/webhook/",
+            "client_domain": "https://fc57-2409-4073-2e87-5114-b986-9109-293d-5dc.ngrok.io",
+            "logo_file": "",
+            "mobile_logo_file": "",
+            "color_code": null,
+            "client_code": "#000",
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                2,
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 2,
+        "fields": {
+            "created_at": "2022-09-21T07:27:54.529Z",
+            "updated_at": "2023-01-27T05:41:57.210Z",
+            "created_by": 1,
+            "modified_by": 3,
+            "name": "ECOM",
+            "api_key": "3zqREqrRZOIA0DjwKROW8uG8OOJBu0gNn33r3Egiw-8",
+            "api_secret": "5b44a00384e6b055f451e50d30f421278cf2101658aaefc370e0927672f4a18f",
+            "is_active": false,
+            "webhook_url": "",
+            "client_domain": "http://192.168.1.3:12000/",
+            "logo_file": "logo_files/ygag.gif",
+            "mobile_logo_file": "",
+            "color_code": "#036",
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 3,
+        "fields": {
+            "created_at": "2022-10-28T04:49:38.019Z",
+            "updated_at": "2022-11-11T07:11:49.011Z",
+            "created_by": 1,
+            "modified_by": 1,
+            "name": "BizRewards",
+            "api_key": "wFLmNOx2GyhTLZRnpIQiaWd0W3vg0Xrt3HjVkainDhc",
+            "api_secret": "fc4844dcb9e63b737d62abeac082ce59cb4cfd60107b841c1e4e0b668f5dbc5e",
+            "is_active": true,
+            "webhook_url": "https://5afd-116-68-75-16.in.ngrok.io/youpay/api/v1/webhook/",
+            "client_domain": "https://5afd-116-68-75-16.in.ngrok.io",
+            "logo_file": "",
+            "mobile_logo_file": "",
+            "color_code": null,
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 4,
+        "fields": {
+            "created_at": "2022-10-28T05:18:31.309Z",
+            "updated_at": "2023-08-24T08:40:14.689Z",
+            "created_by": 1,
+            "modified_by": 7,
+            "name": "ECOM V2 QA",
+            "api_key": "9EQA259oFjhE8Twqbek-n9P5WwIM0HK-qm9DZj2Y8XU",
+            "api_secret": "d4e9641239849968bc71f096995939e4b90aa5ff0ffb09799892c4501b2f3b80",
+            "is_active": true,
+            "webhook_url": "https://ecom-orders-eo-70.sit.yougotagift.co/youpay/api/v1/webhook/",
+            "client_domain": "https://ecom-orders-eo-70.sit.yougotagift.co",
+            "logo_file": "logo_files/282bc0a2-3534-47f8-b46b-a8bea9b528ec.png",
+            "mobile_logo_file": "mobile_logo_file/Logo_1.png",
+            "color_code": "#b800c4",
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 5,
+        "fields": {
+            "created_at": "2022-11-07T03:40:46.189Z",
+            "updated_at": "2023-08-28T04:53:49.803Z",
+            "created_by": 2,
+            "modified_by": 1,
+            "name": "ECOM Developer Local TEST",
+            "api_key": "j8cDQsgBVGAIUemjL2rP05DRFkwhJOU15Ws1k3hi6z4",
+            "api_secret": "dbecc5dc5c98d6b02ef964137398826b47fd0fe56cc586ee40e445ed1b172a46",
+            "is_active": true,
+            "webhook_url": "https://d4bb-103-151-188-152.ngrok-free.app/youpay/api/v1/webhook/",
+            "client_domain": "https://d4bb-103-151-188-152.ngrok-free.app",
+            "logo_file": "logo_files/YouGotaGift_Logo_M58uUtx_nTI4PNY.png",
+            "mobile_logo_file": "mobile_logo_file/YouGotaGift_Logo_rgjlkKN.png",
+            "color_code": "#000",
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 6,
+        "fields": {
+            "created_at": "2022-11-16T08:38:32.021Z",
+            "updated_at": "2023-06-20T05:11:46.089Z",
+            "created_by": 2,
+            "modified_by": 4,
+            "name": "ECOM Sandbox",
+            "api_key": "O6QcTcVlvHGqKFTfMawXDqd_QM7AXOV_DE1UR6JUksg",
+            "api_secret": "e118be58b3cbbc6975e13a3bf915e7a7309da96f808f9f915c616ea51877debf",
+            "is_active": true,
+            "webhook_url": "https://app.orders.ecom.sandbox.yougotagift.com/youpay/api/v1/webhook/",
+            "client_domain": "https://app.orders.ecom.sandbox.yougotagift.com/",
+            "logo_file": "logo_files/yougotagift-new-logo.png",
+            "mobile_logo_file": "mobile_logo_file/YouGotaGift_Logo.png",
+            "color_code": "#A020F0",
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                2,
+                3,
+                1,
+                5
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 7,
+        "fields": {
+            "created_at": "2022-11-26T17:16:59.389Z",
+            "updated_at": "2023-02-07T07:23:14.982Z",
+            "created_by": 1,
+            "modified_by": 2,
+            "name": "jomon local",
+            "api_key": "NjPn-9cIi0oaHCC7HqLJA_P9Oss8JCOSF2xKzvnVBMQ",
+            "api_secret": "40674c54b5c4d6e666a6fdf38ef58321ca092b5168b756d2c7f90bc32313137a",
+            "is_active": false,
+            "webhook_url": "",
+            "client_domain": null,
+            "logo_file": "logo_files/logo-mweb.png",
+            "mobile_logo_file": "",
+            "color_code": null,
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 8,
+        "fields": {
+            "created_at": "2022-11-28T10:24:15.226Z",
+            "updated_at": "2023-02-06T11:53:45.713Z",
+            "created_by": 3,
+            "modified_by": 3,
+            "name": "prbu local",
+            "api_key": "5BaqbDBvvN6NlnX5j9Uex6vu7M_JBAXZNgsOHxYcikU",
+            "api_secret": "195de2f7a75f67a26afa443598cef8066543781109078d8abf4c0ef490800183",
+            "is_active": false,
+            "webhook_url": "https://e0fc-103-103-174-102.in.ngrok.io/youpay/api/v1/webhook/",
+            "client_domain": "https://e0fc-103-103-174-102.in.ngrok.io",
+            "logo_file": "logo_files/logo-yougotagift-300x300.png",
+            "mobile_logo_file": "",
+            "color_code": null,
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 9,
+        "fields": {
+            "created_at": "2022-12-06T03:42:04.952Z",
+            "updated_at": "2023-03-17T12:26:38.955Z",
+            "created_by": 4,
+            "modified_by": 4,
+            "name": "Neethu Local",
+            "api_key": "RTY25iQSZ99duUwDbcHZIctPDeFXrpUtVVGYH8yw_xw",
+            "api_secret": "cd2003a950799338038961e424e02fa7d6f27e97af35090fbc494ec32f1db557",
+            "is_active": false,
+            "webhook_url": "https://example.com/",
+            "client_domain": null,
+            "logo_file": "logo_files/YouGotaGift_Signature_Logo.png",
+            "mobile_logo_file": "mobile_logo_file/YouGotaGift_Signature_Logo_ZLDea2F.png",
+            "color_code": "#800080",
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                3,
+                4,
+                5,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 10,
+        "fields": {
+            "created_at": "2022-12-15T08:27:16.615Z",
+            "updated_at": "2023-06-21T05:36:34.079Z",
+            "created_by": 3,
+            "modified_by": 4,
+            "name": "GroupGift QA",
+            "api_key": "n5JxHECXYYz3E4rTBJrF52cCAxqrXZOPAGIg6i5ppsY",
+            "api_secret": "0908cc9692282305cb4d8900a1864044dc6ae57f13e2b1ddd165fd2b80637e9f",
+            "is_active": true,
+            "webhook_url": "https://groupgift-egg-ecomv2.sit.yougotagift.co/youpay/api/v1/webhook/",
+            "client_domain": "https://groupgift-egg-ecomv2.sit.yougotagift.co",
+            "logo_file": "logo_files/YouGotaGift_Logo_M58uUtx_vrrVg5c.png",
+            "mobile_logo_file": "mobile_logo_file/YouGotaGift_Logo_bQhNZJO.png",
+            "color_code": "#b100cd",
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 11,
+        "fields": {
+            "created_at": "2022-12-16T06:25:44.357Z",
+            "updated_at": "2023-01-12T07:06:23.534Z",
+            "created_by": 3,
+            "modified_by": 3,
+            "name": "Groupgift Test (local)",
+            "api_key": "qAP-l2RY7IRQxWW-VoqGLQsTxiIoz6mOi-P-YxIzecg",
+            "api_secret": "99f539650f6733335561ac097a8be7a3b4275818d9518540fa3a73edec4e4915",
+            "is_active": false,
+            "webhook_url": "https://d8e8-103-103-174-102.in.ngrok.io/youpay/api/v1/webhook/",
+            "client_domain": "https://d8e8-103-103-174-102.in.ngrok.io",
+            "logo_file": "",
+            "mobile_logo_file": "",
+            "color_code": null,
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 12,
+        "fields": {
+            "created_at": "2022-12-22T04:35:45.818Z",
+            "updated_at": "2023-05-19T04:26:43.495Z",
+            "created_by": 3,
+            "modified_by": 1,
+            "name": "HappyCredits Sandbox",
+            "api_key": "gtAv_DF2fT-Sy9cNhCP_tePmScofZrG_uwGo8LiMnlo",
+            "api_secret": "32294ddb924e3f76a782ad4ca66c5219464b4ea30c72309edf51f2ad0688bc7c",
+            "is_active": true,
+            "webhook_url": "https://app.wallets-sandbox.yougotagift.com/youpay/api/v1/webhook/",
+            "client_domain": "https://app.wallets-sandbox.yougotagift.com",
+            "logo_file": "logo_files/Screenshot_2023-04-17_at_3.40.19_PM.png",
+            "mobile_logo_file": "mobile_logo_file/Screenshot_2023-04-17_at_3.40.19_PM.png",
+            "color_code": "#000",
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 13,
+        "fields": {
+            "created_at": "2022-12-22T04:38:19.421Z",
+            "updated_at": "2023-02-02T04:17:58.340Z",
+            "created_by": 3,
+            "modified_by": 3,
+            "name": "HappyCredits local",
+            "api_key": "v1TVL261opmfB1sPX-p7DWLg24KA_jN0HhtUA3FNrYo",
+            "api_secret": "6808186d29ebc03a940fd295fcf5e3fd4503b9964f06a2e83fe28113aa583210",
+            "is_active": false,
+            "webhook_url": "https://3d98-103-103-174-102.in.ngrok.io/youpay/api/v1/webhook/",
+            "client_domain": "https://3d98-103-103-174-102.in.ngrok.io",
+            "logo_file": "",
+            "mobile_logo_file": "",
+            "color_code": null,
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 14,
+        "fields": {
+            "created_at": "2023-01-04T07:47:20.195Z",
+            "updated_at": "2023-01-10T04:12:44.216Z",
+            "created_by": 4,
+            "modified_by": 2,
+            "name": "MyRewards",
+            "api_key": "zxsoVuFZPTbjdt4Aoy-tAMMu4Sd0OvcIlx55jq3PoX0",
+            "api_secret": "0fd7a08a5febc14f300ae09277d7697289f345305d72e50a7597b19ed5d3b606",
+            "is_active": false,
+            "webhook_url": "https://example.com/",
+            "client_domain": "https://example.com/",
+            "logo_file": "",
+            "mobile_logo_file": "",
+            "color_code": null,
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 15,
+        "fields": {
+            "created_at": "2023-01-11T06:15:26.395Z",
+            "updated_at": "2023-01-11T06:49:14.423Z",
+            "created_by": 2,
+            "modified_by": 2,
+            "name": "ECOM Checkoutpg",
+            "api_key": "IJzDPRujmghy4Hgy8gbtljoh2UGkSlM9ACzkDYvjPzM",
+            "api_secret": "e02076ff39020af039a8d6201035fb87fa4a57ed3d629ccee7b48cb43c70372a",
+            "is_active": false,
+            "webhook_url": "",
+            "client_domain": null,
+            "logo_file": "logo_files/Screenshot_2023-01-11_at_11.50.36_AM.png",
+            "mobile_logo_file": "",
+            "color_code": "#0c1142",
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 16,
+        "fields": {
+            "created_at": "2023-01-11T06:19:11.355Z",
+            "updated_at": "2023-01-11T06:31:47.318Z",
+            "created_by": 2,
+            "modified_by": 2,
+            "name": "ECOM Amazonpg",
+            "api_key": "UBDUDqlTVg5h6hHOF7WdYDzQtjBxM8EJL77IWf5WKig",
+            "api_secret": "657925baa497212a2525d50f2d087bd3426998cff198d9c119ee34dc1d5ce8df",
+            "is_active": false,
+            "webhook_url": "",
+            "client_domain": null,
+            "logo_file": "logo_files/amazonpay.webp",
+            "mobile_logo_file": "mobile_logo_file/amazonpay.webp",
+            "color_code": "#f8aa53",
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                2,
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 17,
+        "fields": {
+            "created_at": "2023-01-11T13:00:46.697Z",
+            "updated_at": "2023-05-23T08:44:32.405Z",
+            "created_by": 2,
+            "modified_by": 2,
+            "name": "Group Gift Sandbox",
+            "api_key": "inHc8UjWIO3VsNP55SOWHPdKBV0fpCJ_i4_92Q3MOhs",
+            "api_secret": "0130bb76d5f6b88eeb57e14047681d26c865b8610a60437a29bdb223689698ee",
+            "is_active": false,
+            "webhook_url": "https://groupgift-sandbox.yougotagift.com/youpay/api/v1/webhook/",
+            "client_domain": "https://groupgift-sandbox.yougotagift.com/",
+            "logo_file": "logo_files/YouGotaGift_Logo_dWqEmmm.png",
+            "mobile_logo_file": "mobile_logo_file/YouGotaGift_Logo_ILKkHrt.png",
+            "color_code": "#000",
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                2,
+                3,
+                5
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 18,
+        "fields": {
+            "created_at": "2023-01-20T05:10:47.648Z",
+            "updated_at": "2023-06-20T05:09:38.848Z",
+            "created_by": 2,
+            "modified_by": 4,
+            "name": "Ecom Developer QA Test",
+            "api_key": "PgKKY1eIg56XlFcs0rMGxIcGoOaiYZOFt5jJDFMpXaI",
+            "api_secret": "7555c189e684f4c64b2db759f80bcacb5de7274d71dde2a8972a0038c88c7c30",
+            "is_active": true,
+            "webhook_url": "https://ecom-orders-ev-3167.sit.yougotagift.co/youpay/api/v1/webhook/",
+            "client_domain": "https://ecom-orders-ev-3167.sit.yougotagift.co/",
+            "logo_file": "logo_files/YouGotaGift_Logo_WaECDOl.png",
+            "mobile_logo_file": "mobile_logo_file/YouGotaGift_Logo_rFkw2LI.png",
+            "color_code": "#000",
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                2,
+                3,
+                5
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 19,
+        "fields": {
+            "created_at": "2023-04-17T07:15:54.077Z",
+            "updated_at": "2023-06-21T05:38:35.134Z",
+            "created_by": 2,
+            "modified_by": 4,
+            "name": "Happy Credits QA",
+            "api_key": "ysXNRVqcHRbEac4jr_OuEO6cZHZs0_9feHRTDCN1H8g",
+            "api_secret": "5a5331332e1a80c5b966e345f01f030c4ce9ad42953c519059b5b7ee59c344ea",
+            "is_active": true,
+            "webhook_url": "https://ecom-wallet-ew-ecomv2.sit.yougotagift.co/youpay/api/v1/webhook/",
+            "client_domain": "https://ecom-wallet-ew-ecomv2.sit.yougotagift.co",
+            "logo_file": "logo_files/YouGotaGift_Logo.png",
+            "mobile_logo_file": "mobile_logo_file/YouGotaGift_Logo_MpjSwe9.png",
+            "color_code": "#000000",
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                3,
+                4,
+                2
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 20,
+        "fields": {
+            "created_at": "2023-06-20T05:04:58.473Z",
+            "updated_at": "2023-09-01T04:46:26.194Z",
+            "created_by": 4,
+            "modified_by": 2,
+            "name": "Ecom QA",
+            "api_key": "NV2VmFdM7wdCgX7nB_q-JbPea1yXHtJui9ViacWKVjo",
+            "api_secret": "1232e1a3fd33466d72f40e61feeb8d33115c1ef86ec1ede13cedc98ec3a2cd41",
+            "is_active": true,
+            "webhook_url": "https://ecom-orders-eo-ecomv2.sit.yougotagift.co/youpay/api/v1/webhook/",
+            "client_domain": "https://ecom-orders-eo-ecomv2.sit.yougotagift.co/",
+            "logo_file": "logo_files/YouGotaGift_Logo_M58uUtx.png",
+            "mobile_logo_file": "mobile_logo_file/YouGotaGift_Logo_A3F31Qc.png",
+            "color_code": "#b800c4",
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                2,
+                3,
+                5
+            ]
+        }
+    },
+    {
+        "model": "services.apiclient",
+        "pk": 21,
+        "fields": {
+            "created_at": "2023-07-10T11:50:44.595Z",
+            "updated_at": "2023-07-10T11:50:44.595Z",
+            "created_by": 3,
+            "modified_by": 3,
+            "name": "Anandhu Local",
+            "api_key": "ahBPa2OaDk8Tdtm7JPaO8KXEtnZgLhWpxLdm9JfTudM",
+            "api_secret": "08de45e9c34cdeaae169ab7d227a107cfdd86e482478f897ef80c413d073d07d",
+            "is_active": false,
+            "webhook_url": "",
+            "client_domain": null,
+            "logo_file": "logo_files/YouGotaGift_Logo_jyyUeMS.png",
+            "mobile_logo_file": "mobile_logo_file/YouGotaGift_Logo_0jPutDL.png",
+            "color_code": "#000",
+            "client_code": null,
+            "validate_session": false,
+            "payment_gateway": [
+                1,
+                2,
+                3,
+                5
+            ]
+        }
+    }
+]

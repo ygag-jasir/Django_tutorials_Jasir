@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
+from abstract_models.views import BaseAPIView
+
+from customizeAdmin.views import QitafResponseSimulator
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,4 +28,9 @@ urlpatterns = [
     path('tabbypg/', include('tabbypgclient.urls')),
         
     path('youpay/', include(('youpayclient.urls', 'youpayclient'), namespace='youpay-webhook')),
+    
+    path('qitaf-test/', QitafResponseSimulator.as_view(), name='qitaf-response-simulator'),
+    
+    path('webhook-receive/',BaseAPIView.as_view())
+         
 ]

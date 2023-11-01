@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from rest_framework.generics import ListAPIView
 from rest_framework.response  import Response
+from rest_framework.views import APIView
+from django.db import transaction
+
 # from abstract_models.middleware import SampleMiddleware
 # from abstract_models.middleware import my_middleware_decorator
 
@@ -9,6 +12,7 @@ from rest_framework.response  import Response
 # from django.views.generic import View
 
 from django.utils.decorators import method_decorator
+from .models import Base, ModelA
 
 
 # @method_decorator(SampleMiddleware,name="dispatch")
@@ -28,7 +32,17 @@ class BaseAPIView(ListAPIView):
         """
         POST request
         """
-        print("PSOT BASEAPIVIEW Worked")
+        data = self.request.data
+        
+        try:
+        # print("\n\n\nPOST METHOD WORKED : {}".format(self.request.data) )
+            
+            print("\n\n\nDATA payment_status : {}, is_fraud : {} is_flagged : {}".format(data.payment_status,
+data.is_fraud,
+data.is_flagged))
+            
+        except Exception as e:
+            print("Excepction occured for data : \n{}".format(data))
         
         # data = request.data
         # # print(data)
@@ -147,3 +161,25 @@ class DecoratorBasedMiddlewareSample(ListAPIView):
             "Status":True,
             "message":"GET DecoratorBasedMiddlewareSample Worked"
         })
+        
+class ClassTransaction(APIView):
+    def post(self,request):
+        msg = "Post ClassTransaction Worked"
+        print(msg)
+        with transaction.atomic():
+            # print("Base ",Base.objects.all())        
+            model_obj = ModelA.objects.select_for_update().first()
+            print("Model obj before",model_obj.name)
+            if model_obj.name == "two":
+                model_obj.name = "one"
+            else:
+                model_obj.name = "two"
+            model_obj.save()
+        print("Model obj after",model_obj.name)
+        
+        
+        return Response({
+            "Status":True,
+            "message":msg
+        })
+        

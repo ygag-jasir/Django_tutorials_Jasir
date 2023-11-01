@@ -20,25 +20,13 @@ time_array = [
     # }
     
     {
-        "checkin": "07:22:00Z",
-        "checkout": "08:30:00Z",
+        "checkin": "09:19:00Z",
+        "checkout": "13:25:00Z",
     },
     {
-        "checkin": "08:50:00Z",
-        "checkout": "09:15:00Z",
-    },
-    {
-        "checkin": "10:00:00Z",
-        "checkout": "11:05:00Z",
-    },
-    {
-        "checkin": "12:20:00Z",
-        "checkout": "14:15:00Z",
-    },
-    {
-        "checkin": "14:43:00Z",
+        "checkin": "14:30:00Z",
         "checkout": "18:30:00Z",
-    },
+    }
     # {
     #     "checkin": "2019-08-24T15:30:22Z",
     #     "checkout": "2019-08-24T16:30:22Z",

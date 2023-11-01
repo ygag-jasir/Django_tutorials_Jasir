@@ -1,0 +1,50 @@
+
+
+
+
+
+<!-- OTP GENERATE -->
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <GenerateOTPResponse xmlns="http://tempuri.org/">
+            <GenerateOTPResult xmlns:a="http://schemas.datacontract.org/2004/07/Redemption.Lite.Integration.Service.Interface" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <a:ResponseCode>2310</a:ResponseCode>
+                <a:ResponseText>STC GetCustomerDetails returned error code</a:ResponseText>
+            </GenerateOTPResult>
+        </GenerateOTPResponse>
+    </s:Body>
+</s:Envelope>
+
+<!-- Redemption Success -->
+ 
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <RedeemQitafPointsResponse xmlns="http://tempuri.org/">
+            <RedeemQitafPointsResult xmlns:a="http://schemas.datacontract.org/2004/07/Redemption.Lite.Integration.Service.Interface" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <a:ResponseCode>0</a:ResponseCode>
+                <a:ResponseText>Success</a:ResponseText>
+            </RedeemQitafPointsResult>
+        </RedeemQitafPointsResponse>
+    </s:Body>
+</s:Envelope>
+
+<!-- Redemption Failed -->
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <RedeemQitafPointsResponse xmlns="http://tempuri.org/">
+            <RedeemQitafPointsResult xmlns:a="http://schemas.datacontract.org/2004/07/Redemption.Lite.Integration.Service.Interface" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <a:ResponseCode>1050</a:ResponseCode>
+                <a:ResponseText>Redemption Rejected – Duplicated Request ID</a:ResponseText>
+            </RedeemQitafPointsResult>
+        </RedeemQitafPointsResponse>
+    </s:Body>
+</s:Envelope>
+
+<!-- OTP Expired on redemption -->
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><RedeemQitafPointsResponse xmlns="http://tempuri.org/"><RedeemQitafPointsResult xmlns:a="http://schemas.datacontract.org/2004/07/Redemption.Lite.Integration.Service.Interface" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<a:ResponseCode>1030</a:ResponseCode><a:ResponseText>PIN Expired and New Pin Send</a:ResponseText></RedeemQitafPointsResult></RedeemQitafPointsResponse></s:Body></s:Envelope>
+
+<!-- If OTP is expired then need to create new Request id -->
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><RedeemQitafPointsResponse xmlns="http://tempuri.org/"><RedeemQitafPointsResult xmlns:a="http://schemas.datacontract.org/2004/07/Redemption.Lite.Integration.Service.Interface" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<a:ResponseCode>1050</a:ResponseCode><a:ResponseText>Redemption Rejected – Duplicated Request ID</a:ResponseText></RedeemQitafPointsResult></RedeemQitafPointsResponse></s:Body></s:Envelope>

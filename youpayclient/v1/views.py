@@ -17,13 +17,14 @@ class WebhookListener(APIView):
     """
     This class is to process the webhook data from YouPay
     """
-    authentication_classes = (SignatureAuthentication,)
+    # authentication_classes = (SignatureAuthentication,)
 
     def post(self, request):
         """
         Post method to receive the data from YouPay
         """
-        request_data = json.loads(request.data)
+        # request_data = json.loads(request.data)
+        request_data = request.data
         invoice_id = request_data.get("invoice_id")
         transaction_id = request_data.get("transaction_id")
 
@@ -75,8 +76,10 @@ class WebhookListener(APIView):
                 logger.info(response_message)
         except Exception as e:
             logger.error(
-                "youpayclient webhook failed with error {}".format(e))
-            response_data = {'message': "Data not updated", 'status': False}
+                "youpayclient webhook failed with error {}".format(e),
+                exc_info=e)
+            response_data = {'message': "Data not updated : {} ".format(e),
+                             'status': False}
             response_status = status.HTTP_400_BAD_REQUEST
         return Response({'data': response_data, 'status': response_status})
 
