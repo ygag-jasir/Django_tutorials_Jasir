@@ -1,0 +1,204 @@
+SELECT schemaname,
+       tablename,
+       pg_size_pretty(pg_total_relation_size('"' || schemaname || '"."' || tablename || '"')) AS total_size
+FROM pg_tables
+ORDER BY pg_total_relation_size('"' || schemaname || '"."' || tablename || '"') DESC;
+
+
+     schemaname     |                       tablename                        | total_size 
+--------------------+--------------------------------------------------------+------------
+ public             | communication_module_tblnotificationuser               | 26 GB 
+ public             | communication_module_tblnotificationcontent            | 253 MB  d1yb, p=2, lt=10d?
+ public             | communication_module_tblnotificationobjects            | 164 MB  p=1 
+
+
+ public             | orders_tblorderdetails                                 | 119 MB d1yb,
+ public             | orders_tblstatushistory                                | 117 MB
+ public             | accounts_tbldbvalet                                    | 81 MB
+ public             | orders_tblissueditems                                  | 74 MB
+ public             | accounts_tblordernetaccountprofitandloss               | 59 MB
+ public             | payments_tblpayments                                   | 38 MB
+ public             | auth_user                                              | 22 MB
+ public             | users_tbladdress                                       | 18 MB
+ public             | users_tbluserdetails                                   | 16 MB
+ public             | authtoken_token                                        | 12 MB
+ public             | items_tblitemsvarientsinfo                             | 10 MB
+ public             | users_tbladdress_franchise                             | 9592 kB
+ public             | items_tblitems                                         | 8320 kB
+ public             | users_tbldefaultaddress                                | 4656 kB
+ public             | cart_basketcart                                        | 4096 kB
+ public             | items_tblitems_inner_category                          | 4056 kB
+ public             | items_tblitems_images                                  | 3888 kB
+ public             | picture_tblimage                                       | 3616 kB
+ public             | cart_basket                                            | 2480 kB
+ public             | communication_module_tblnotificationtokens             | 1696 kB
+ pg_catalog         | pg_depend                                              | 1680 kB
+ pg_catalog         | pg_attribute                                           | 1152 kB
+ pg_catalog         | pg_statistic                                           | 1000 kB
+ pg_catalog         | pg_proc                                                | 992 kB
+ public             | wallet_tbltransaction                                  | 976 kB
+ public             | review_tbldeliveryboysreviewrate                       | 736 kB
+ public             | items_tblitems_sloats                                  | 664 kB
+ pg_catalog         | pg_rewrite                                             | 616 kB
+ public             | configurations_tblconfigurations                       | 616 kB
+ public             | items_tblsectionbranch                                 | 592 kB
+ pg_catalog         | pg_description                                         | 560 kB
+ pg_catalog         | pg_class                                               | 416 kB
+ public             | items_tblitemcategory                                  | 392 kB
+ pg_catalog         | pg_trigger                                             | 344 kB
+ public             | branch_tblbranch                                       | 336 kB
+ pg_catalog         | pg_collation                                           | 320 kB
+ public             | items_tbloffersanddiscounts                            | 312 kB
+ pg_catalog         | pg_constraint                                          | 312 kB
+ public             | promocode_tblpromocodeuser                             | 272 kB
+ pg_catalog         | pg_type                                                | 248 kB
+ pg_catalog         | pg_operator                                            | 240 kB
+ public             | wallet_tblwallet                                       | 224 kB
+ public             | delivery_tbldeliveryboys                               | 216 kB
+ pg_catalog         | pg_amop                                                | 200 kB
+ pg_catalog         | pg_index                                               | 200 kB
+ public             | branch_tblbranch_images                                | 184 kB
+ public             | communication_module_tbldeliveryboysnotificationtokens | 176 kB
+ public             | configurations_tbladminconfigurations                  | 152 kB
+ public             | communication_module_tblbranchnotificationtokens       | 136 kB
+ public             | communication_module_tbladminnotificationtokens        | 128 kB
+ public             | review_tblreviews                                      | 128 kB
+ pg_catalog         | pg_amproc                                              | 128 kB
+ pg_catalog         | pg_attrdef                                             | 120 kB
+ public             | auth_permission                                        | 120 kB
+ public             | franchise_tblfranchise                                 | 112 kB
+ public             | review_tbluserfeedback_reviewed_items                  | 104 kB
+ public             | review_tblrating                                       | 104 kB
+ pg_catalog         | pg_conversion                                          | 104 kB
+ public             | items_tblsloat                                         | 96 kB
+ public             | items_tblcustomsections                                | 96 kB
+ information_schema | sql_features                                           | 96 kB
+ pg_catalog         | pg_opclass                                             | 88 kB
+ pg_catalog         | pg_cast                                                | 80 kB
+ pg_catalog         | pg_ts_config_map                                       | 80 kB
+ public             | communication_module_tblsuperadminnotificationtokens   | 80 kB
+ pg_catalog         | pg_opfamily                                            | 80 kB
+ public             | promocode_tblpromocode                                 | 80 kB
+ pg_catalog         | pg_extension                                           | 72 kB
+ public             | branch_tblbranch_manager                               | 72 kB
+ pg_catalog         | pg_authid                                              | 72 kB
+ pg_catalog         | pg_am                                                  | 72 kB
+ pg_catalog         | pg_language                                            | 72 kB
+ pg_catalog         | pg_namespace                                           | 72 kB
+ pg_catalog         | pg_database                                            | 72 kB
+ pg_catalog         | pg_tablespace                                          | 72 kB
+ pg_catalog         | pg_auth_members                                        | 72 kB
+ pg_catalog         | pg_shdepend                                            | 72 kB
+ pg_catalog         | pg_ts_config                                           | 72 kB
+ pg_catalog         | pg_ts_dict                                             | 72 kB
+ pg_catalog         | pg_ts_parser                                           | 72 kB
+ pg_catalog         | pg_ts_template                                         | 72 kB
+ public             | franchise_tblfranchise_managers                        | 72 kB
+ public             | promocode_tblpromocode_applicable_branches             | 72 kB
+ public             | promocode_tblpromocode_alloed_users                    | 72 kB
+ public             | users_tblbranchmanager                                 | 72 kB
+ pg_catalog         | pg_aggregate                                           | 64 kB
+ pg_catalog         | pg_shdescription                                       | 64 kB
+ pg_catalog         | pg_init_privs                                          | 64 kB
+ public             | django_migrations                                      | 64 kB
+ pg_catalog         | pg_range                                               | 56 kB
+ pg_catalog         | pg_pltemplate                                          | 56 kB
+ public             | items_tblitemdiscount                                  | 48 kB
+ information_schema | sql_languages                                          | 48 kB
+ information_schema | sql_packages                                           | 48 kB
+ information_schema | sql_parts                                              | 48 kB
+ information_schema | sql_sizing                                             | 48 kB
+ public             | items_tblitemcategorydiscount                          | 48 kB
+ public             | subscriptions_tblsubscriptions                         | 48 kB
+ public             | delivery_tbldeliverytipcancell                         | 48 kB
+ information_schema | sql_implementation_info                                | 48 kB
+ public             | items_tblvarient                                       | 48 kB
+ public             | delivery_tbldeliveryboyordertransfer                   | 48 kB
+ public             | delivery_tbldeliveryboycancel                          | 40 kB
+ public             | subscriptions_tblissueditemssubscription               | 40 kB
+ public             | items_tblbranchdiscounts                               | 40 kB
+ public             | django_content_type                                    | 40 kB
+ public             | review_tbluserfeedback                                 | 40 kB
+ public             | franchise_tblfranchise_staffs                          | 32 kB
+ public             | review_tblwishlist                                     | 32 kB
+ public             | delivery_tbltransferdeliveryboys_delivery_boys         | 32 kB
+ public             | delivery_tbltransferdeliveryboys                       | 32 kB
+ public             | delivery_tblassigndeliveryboys_delivery_boys           | 32 kB
+ public             | franchise_tblfranchise_images                          | 32 kB
+ public             | review_tbluserfeedback_items                           | 32 kB
+ public             | items_tblbrand                                         | 32 kB
+ public             | auth_group_permissions                                 | 32 kB
+ public             | configurations_tblsuperuserconfigurations              | 32 kB
+ public             | users_tblfranchiseusers                                | 32 kB
+ pg_catalog         | pg_statistic_ext                                       | 32 kB
+ public             | subscriptions_tblsubscriptions_dates                   | 32 kB
+ public             | auth_user_groups                                       | 32 kB
+ public             | items_tblitems_category_tag                            | 32 kB
+ public             | auth_user_user_permissions                             | 32 kB
+ public             | django_session                                         | 32 kB
+ public             | items_tblitemsvarientsinfo_image                       | 32 kB
+ public             | delivery_tbldeliveryboys_ongoing_orders                | 32 kB
+ public             | users_tbluserroles                                     | 32 kB
+ public             | branch_tbltemplates                                    | 32 kB
+ public             | django_admin_log                                       | 32 kB
+ public             | review_tblshopratings                                  | 32 kB
+ public             | delivery_tblassigndeliveryboys                         | 24 kB
+ pg_catalog         | pg_enum                                                | 24 kB
+ public             | auth_group                                             | 24 kB
+ public             | cart_basketwatchlist                                   | 24 kB
+ public             | accounts_tbltransactionstatus                          | 24 kB
+ public             | orders_tblstatus                                       | 24 kB
+ pg_catalog         | pg_sequence                                            | 24 kB
+ pg_catalog         | pg_seclabel                                            | 16 kB
+ pg_catalog         | pg_shseclabel                                          | 16 kB
+ pg_catalog         | pg_foreign_server                                      | 16 kB
+ pg_catalog         | pg_transform                                           | 16 kB
+ pg_catalog         | pg_publication                                         | 16 kB
+ pg_catalog         | pg_publication_rel                                     | 16 kB
+ pg_catalog         | pg_foreign_data_wrapper                                | 16 kB
+ pg_catalog         | pg_db_role_setting                                     | 16 kB
+ pg_catalog         | pg_event_trigger                                       | 16 kB
+ pg_catalog         | pg_inherits                                            | 16 kB
+ pg_catalog         | pg_subscription                                        | 16 kB
+ pg_catalog         | pg_user_mapping                                        | 16 kB
+ pg_catalog         | pg_policy                                              | 16 kB
+ pg_catalog         | pg_replication_origin                                  | 16 kB
+ pg_catalog         | pg_default_acl                                         | 16 kB
+ pg_catalog         | pg_largeobject_metadata                                | 8192 bytes
+ information_schema | sql_sizing_profiles                                    | 8192 bytes
+ pg_catalog         | pg_subscription_rel                                    | 8192 bytes
+ pg_catalog         | pg_partitioned_table                                   | 8192 bytes
+ pg_catalog         | pg_foreign_table                                       | 8192 bytes
+ public             | subscriptions_tbldates                                 | 8192 bytes
+ pg_catalog         | pg_largeobject                                         | 8192 bytes
+
+
+
+batch_size = 10000
+
+# Get the total count of rows in the table
+total_rows = TblNotificationUser.objects.count()
+
+# Calculate the number of iterations required
+num_iterations = (total_rows + batch_size - 1) #batch_size
+
+for iteration in range(num_iterations):
+    offset = iteration * batch_size
+    rows_to_delete = TblNotificationUser.objects.all()[offset:offset + batch_size]
+    rows_to_delete.delete()
+====================================================================
+from communication_module.models import *
+
+batch_size = 10000
+print("Started....")
+# Get the total count of rows in the table
+total_rows = TblNotificationUser.objects.count()
+print("Total rows ",total_rows)
+# Calculate the number of iterations required
+num_iterations = (total_rows + batch_size - 1) #batch_size
+print("Number of iteration ",num_iterations)
+for iteration in range(num_iterations):
+    print("Started {}/{}".format(iteration,num_iterations))
+    offset = iteration * batch_size
+    rows_to_delete = TblNotificationUser.objects.all()[offset:offset + batch_size]
+    rows_to_delete.delete()

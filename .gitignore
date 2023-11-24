@@ -3,3 +3,7 @@ venv
 venv/
 .idea/
 __pycache__/
+db.sqlite3
+
+/tabbypgclient
+/env_django_2

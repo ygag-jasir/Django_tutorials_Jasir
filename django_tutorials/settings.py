@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!ky_ckbp-o_z)#7d%(_2gsj+ki4v+z$8s^xkv%=tqnin7z4goe
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,9 +37,20 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'rest_framework',
+    'abstract_models',
+    'tabbypgclient',
+    'youpayclient',
+    'customizeAdmin',
+    'UserApp',
+    
+    "corsheaders",
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -47,7 +58,14 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
+    #custome middleware
+    # 'abstract_models.middleware.SampleMiddleware',
+    'abstract_models.class_based_middleware.ClassAMiddleware',
+    'abstract_models.class_based_middleware.ClassBMiddleware',
+    
 ]
+CORS_ORIGIN_ALLOW_ALL = True
 
 ROOT_URLCONF = 'django_tutorials.urls'
 
@@ -121,3 +139,14 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+WAIT_LOCK_DEFAULT_TIMEOUT="10"
+WAIT_LOCK_DEFAULT_WAIT_DURATION="10"
+WAIT_LOCK_DEFAULT_MAX_RETRIES="3"
+
+YOUPAY_API_SECRET = '83ba042aaa271f7508e9c91dc647a5309f04319a5a1f172e3c89ca9ee45a3bdb'
+
+# REDIS configurations
+REDIS_HOST =  'localhost'
+REDIS_PORT = 6379
+REDIS_LOCKS_DB =  11
