@@ -110,7 +110,7 @@ class ProApiView(ListAPIView):
 #Attempt 3 start
 from abstract_models.class_based_middleware import ClassAMiddleware, ClassBMiddleware
 
-from abstract_models.decoratorbaseMiddleware import middleware_check_decorator
+# from abstract_models.decoratorbaseMiddleware import middleware_check_decorator
 
 # @middleware_check_decorator
 class ClassA(ListAPIView):

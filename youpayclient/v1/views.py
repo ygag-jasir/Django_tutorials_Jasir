@@ -23,8 +23,8 @@ class WebhookListener(APIView):
         """
         Post method to receive the data from YouPay
         """
-        # request_data = json.loads(request.data)
-        request_data = request.data
+        request_data = json.loads(request.data)
+        # request_data = request.data
         invoice_id = request_data.get("invoice_id")
         transaction_id = request_data.get("transaction_id")
 

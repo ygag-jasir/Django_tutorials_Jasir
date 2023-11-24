@@ -163,6 +163,11 @@ class YouPayClientTransactionData(AbstractDateTime):
         decimal_places=4, max_digits=12, null=True, blank=True,
         help_text='Earned point for the transaction via corresponding payment'
                   ' method')
+    brand_details = models.JSONField(null=True, blank=True,
+                                     help_text="used to store brand details "
+                                               "from the API client")
+    brand_calculations = models.JSONField(null=True, blank=True,
+                                          help_text="Calculated brand details")
     
 
     def __str__(self):
