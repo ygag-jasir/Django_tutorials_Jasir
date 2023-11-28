@@ -31,6 +31,8 @@ urlpatterns = [
     
     path('qitaf-test/', QitafResponseSimulator.as_view(), name='qitaf-response-simulator'),
     
-    path('webhook-receive/',BaseAPIView.as_view())
+    path('webhook-receive/',BaseAPIView.as_view()),
+    
+    path('whitelabelDemo/', include('whitelabelDemo.urls')),
          
 ]

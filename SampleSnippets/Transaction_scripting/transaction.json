@@ -1,0 +1,1334 @@
+[
+    {
+        "id": 1,
+        "date": "10/11/2022",
+        "transaction_id": "6817472515",
+        "transaction_description": "BISMI HYPERMART MALAPPURAM IN",
+        "transaction_point": "189",
+        "transaction_amount": "946.27",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 2,
+        "date": "10/11/2022",
+        "transaction_id": "6822254396",
+        "transaction_description": "JUST LOAF MALAPPURAM IN",
+        "transaction_point": "8",
+        "transaction_amount": "420.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 3,
+        "date": "10/11/2022",
+        "transaction_id": "6822668565",
+        "transaction_description": "BEAUTY SILKS MALAPPURAM IN",
+        "transaction_point": "44",
+        "transaction_amount": "2248.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 4,
+        "date": "11/11/2022",
+        "transaction_id": "6819357754",
+        "transaction_description": "Joining Fee",
+        "transaction_point": "0",
+        "transaction_amount": "500.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 5,
+        "date": "11/11/2022",
+        "transaction_id": "6819357758",
+        "transaction_description": "IGST-CI@18%",
+        "transaction_point": "0",
+        "transaction_amount": "90.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 6,
+        "date": "15/11/2022",
+        "transaction_id": "6837197707",
+        "transaction_description": "REL RETAIL LTD-SMART MALAPPURAM IN",
+        "transaction_point": "654",
+        "transaction_amount": "3272.63",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 7,
+        "date": "21/11/2022",
+        "transaction_id": "6855265230",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "7476.90",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 8,
+        "date": "21/11/2022",
+        "transaction_id": "6860487296",
+        "transaction_description": "REL RETAIL LTD-SMART MALAPPURAM IN",
+        "transaction_point": "8",
+        "transaction_amount": "40.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 9,
+        "date": "21/11/2022",
+        "transaction_id": "6860538330",
+        "transaction_description": "AMAZON WEB SERVICES MUMBAI IN",
+        "transaction_point": "0",
+        "transaction_amount": "7.42",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 10,
+        "date": "22/11/2022",
+        "transaction_id": "6863418988",
+        "transaction_description": "REL RETAIL LTD-SMART MALAPPURAM IN",
+        "transaction_point": "125",
+        "transaction_amount": "626.68",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 11,
+        "date": "01/12/2022",
+        "transaction_id": "6892927565",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "1536.27",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 12,
+        "date": "19/01/2023",
+        "transaction_id": "7087096601",
+        "transaction_description": "GITHUB HTTPSGITHUB.C US* 16 10",
+        "transaction_point": "USD",
+        "transaction_amount": "852.12",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 13,
+        "date": "21/01/2023",
+        "transaction_id": "7092207148",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "852.12",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 14,
+        "date": "22/01/2023",
+        "transaction_id": "7101564458",
+        "transaction_description": "GULF OWN MOBILES MALAPURAM IN",
+        "transaction_point": "17500",
+        "transaction_amount": "-87500.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 15,
+        "date": "24/01/2023",
+        "transaction_id": "7103666673",
+        "transaction_description": "GULF OWN MOBILES MALAPURAM IN",
+        "transaction_point": "-17500",
+        "transaction_amount": "87500.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 16,
+        "date": "24/01/2023",
+        "transaction_id": "7103824006",
+        "transaction_description": "INSTANT EMI OFFUS CONVERSION",
+        "transaction_point": "0",
+        "transaction_amount": "0.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 17,
+        "date": "24/01/2023",
+        "transaction_id": "7103824008",
+        "transaction_description": "Processing Fee 199 : 0%",
+        "transaction_point": "0",
+        "transaction_amount": "199.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 18,
+        "date": "24/01/2023",
+        "transaction_id": "7103824011",
+        "transaction_description": "IGST-CI@18%",
+        "transaction_point": "0",
+        "transaction_amount": "35.82",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 19,
+        "date": "24/01/2023",
+        "transaction_id": "7103824017",
+        "transaction_description": "Interest Amount Amortization - <1/12>",
+        "transaction_point": "0",
+        "transaction_amount": "1165.94",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 20,
+        "date": "24/01/2023",
+        "transaction_id": "7103824020",
+        "transaction_description": "IGST-CI@18%",
+        "transaction_point": "0",
+        "transaction_amount": "209.87",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 21,
+        "date": "24/01/2023",
+        "transaction_id": "7103824025",
+        "transaction_description": "Principal Amount Amortization - <1/12>",
+        "transaction_point": "0",
+        "transaction_amount": "6772.60",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 22,
+        "date": "28/01/2023",
+        "transaction_id": "7117578720",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "8383.23",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 23,
+        "date": "02/02/2023",
+        "transaction_id": "7140435461",
+        "transaction_description": "BUDGET FOODS PVT LTD KOZHIKODE IN",
+        "transaction_point": "14",
+        "transaction_amount": "74.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 24,
+        "date": "09/02/2023",
+        "transaction_id": "7163745015",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "74.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 25,
+        "date": "19/12/2022",
+        "transaction_id": "6971692121",
+        "transaction_description": "Flipkart Internet Pvt Ltd BANGALORE IN",
+        "transaction_point": "59",
+        "transaction_amount": "2990.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 26,
+        "date": "04/01/2023",
+        "transaction_id": "7024652258",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "2127.83",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 27,
+        "date": "12/02/2023",
+        "transaction_id": "7179102500",
+        "transaction_description": "BUDGET FOODS PVT LTD KOZHIKODE IN",
+        "transaction_point": "319",
+        "transaction_amount": "1599.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 28,
+        "date": "12/02/2023",
+        "transaction_id": "7179102568",
+        "transaction_description": "BUDGET FOODS PVT LTD KOZHIKODE IN",
+        "transaction_point": "1339",
+        "transaction_amount": "6695.76",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 29,
+        "date": "17/02/2023",
+        "transaction_id": "7197322624",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "8294.76",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 30,
+        "date": "24/02/2023",
+        "transaction_id": "7223300782",
+        "transaction_description": "Interest Amount Amortization - <2/12>",
+        "transaction_point": "0",
+        "transaction_amount": "1075.69",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 31,
+        "date": "24/02/2023",
+        "transaction_id": "7223300787",
+        "transaction_description": "IGST-CI@18%",
+        "transaction_point": "0",
+        "transaction_amount": "193.62",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 32,
+        "date": "24/02/2023",
+        "transaction_id": "7223300798",
+        "transaction_description": "Principal Amount Amortization - <2/12>",
+        "transaction_point": "0",
+        "transaction_amount": "6862.85",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 33,
+        "date": "03/03/2023",
+        "transaction_id": "7252608940",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "8132.16",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 34,
+        "date": "18/03/2023",
+        "transaction_id": "7316317744",
+        "transaction_description": "HOTEL RAHMATH PRIVATE LIM KOZHIKODE IN",
+        "transaction_point": "9",
+        "transaction_amount": "483.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 35,
+        "date": "18/03/2023",
+        "transaction_id": "7316413950",
+        "transaction_description": "POPEES BABY CARE PRODUC MALAPPURAM IN",
+        "transaction_point": "13",
+        "transaction_amount": "699.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 36,
+        "date": "18/03/2023",
+        "transaction_id": "7316504478",
+        "transaction_description": "RELIANCE RETAIL LTD KOZHIKODE IN",
+        "transaction_point": "62",
+        "transaction_amount": "311.61",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 37,
+        "date": "18/03/2023",
+        "transaction_id": "7317296456",
+        "transaction_description": "DSI KOZHIKODE CALICUT IN",
+        "transaction_point": "25",
+        "transaction_amount": "1257.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 38,
+        "date": "23/03/2023",
+        "transaction_id": "7337264233",
+        "transaction_description": "AMAZON PAY INDIA PRIVATE WWW.AMAZON.IN IN",
+        "transaction_point": "359",
+        "transaction_amount": "17976.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 39,
+        "date": "24/03/2023",
+        "transaction_id": "7339848134",
+        "transaction_description": "Interest Amount Amortization - <3/12>",
+        "transaction_point": "0",
+        "transaction_amount": "984.25",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 40,
+        "date": "24/03/2023",
+        "transaction_id": "7339848138",
+        "transaction_description": "IGST-CI@18%",
+        "transaction_point": "0",
+        "transaction_amount": "177.17",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 41,
+        "date": "24/03/2023",
+        "transaction_id": "7339848146",
+        "transaction_description": "Principal Amount Amortization - <3/12>",
+        "transaction_point": "0",
+        "transaction_amount": "6954.29",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 42,
+        "date": "05/04/2023",
+        "transaction_id": "7383994155",
+        "transaction_description": "INFINITY PAYMENT RECEIVED, THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "28842.32",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 43,
+        "date": "04/04/2023",
+        "transaction_id": "7385236956",
+        "transaction_description": "MALABAR MASALA KOZHIKODE IN",
+        "transaction_point": "4",
+        "transaction_amount": "220.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 44,
+        "date": "08/04/2023",
+        "transaction_id": "7399966364",
+        "transaction_description": "QESSAH BOUTIQUE KOZHIKODE IN",
+        "transaction_point": "60",
+        "transaction_amount": "3000.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 45,
+        "date": "08/04/2023",
+        "transaction_id": "7404287921",
+        "transaction_description": "MANDI MALAPPURAM IN",
+        "transaction_point": "7",
+        "transaction_amount": "370.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 46,
+        "date": "09/04/2023",
+        "transaction_id": "7404431685",
+        "transaction_description": "RELIANCE RETAIL LTD KOZHIKODE IN",
+        "transaction_point": "93",
+        "transaction_amount": "465.83",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 47,
+        "date": "13/04/2023",
+        "transaction_id": "7416036113",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "4055.83",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 48,
+        "date": "12/04/2023",
+        "transaction_id": "7417187932",
+        "transaction_description": "SAVOURY SEASHELL RESTAURA KOZHIKODE IN",
+        "transaction_point": "10",
+        "transaction_amount": "525.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 49,
+        "date": "13/04/2023",
+        "transaction_id": "7425889080",
+        "transaction_description": "AMAZON WEB SERVICES MUMBAI IN",
+        "transaction_point": "0",
+        "transaction_amount": "9.88",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 50,
+        "date": "15/04/2023",
+        "transaction_id": "7426472245",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "534.88",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 51,
+        "date": "17/04/2023",
+        "transaction_id": "7437458718",
+        "transaction_description": "NESTO HYPERMARKET CALICUT IN",
+        "transaction_point": "154",
+        "transaction_amount": "773.94",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 52,
+        "date": "20/04/2023",
+        "transaction_id": "7444556962",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "773.94",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 53,
+        "date": "20/04/2023",
+        "transaction_id": "7450893856",
+        "transaction_description": "GOOGLE CLOUD MUMBAI IN",
+        "transaction_point": "0",
+        "transaction_amount": "2.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 54,
+        "date": "21/04/2023",
+        "transaction_id": "7454996330",
+        "transaction_description": "NESTO HYPERMARKET CALICUT IN",
+        "transaction_point": "148",
+        "transaction_amount": "740.80",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 55,
+        "date": "22/04/2023",
+        "transaction_id": "7456921261",
+        "transaction_description": "REL RETAIL LTD-SMART MALAPPURAM IN",
+        "transaction_point": "141",
+        "transaction_amount": "706.71",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 56,
+        "date": "24/04/2023",
+        "transaction_id": "7460701190",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "1449.51",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 57,
+        "date": "23/04/2023",
+        "transaction_id": "7461708928",
+        "transaction_description": "REL RETAIL LTD-SMART MALAPPURAM IN",
+        "transaction_point": "54",
+        "transaction_amount": "272.25",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 58,
+        "date": "24/04/2023",
+        "transaction_id": "7463573420",
+        "transaction_description": "Interest Amount Amortization - <4/12>",
+        "transaction_point": "0",
+        "transaction_amount": "891.58",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 59,
+        "date": "24/04/2023",
+        "transaction_id": "7463573424",
+        "transaction_description": "IGST-CI@18%",
+        "transaction_point": "0",
+        "transaction_amount": "160.48",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 60,
+        "date": "24/04/2023",
+        "transaction_id": "7463573435",
+        "transaction_description": "Principal Amount Amortization - <4/12>",
+        "transaction_point": "0",
+        "transaction_amount": "7046.96",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 61,
+        "date": "26/04/2023",
+        "transaction_id": "7469106094",
+        "transaction_description": "UPI Payment Received",
+        "transaction_point": "0",
+        "transaction_amount": "4055.83",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 62,
+        "date": "26/04/2023",
+        "transaction_id": "7469125923",
+        "transaction_description": "NEFT PAYMENT RECEIVED",
+        "transaction_point": "0",
+        "transaction_amount": "1.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 63,
+        "date": "16/05/2023",
+        "transaction_id": "7552020963",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "256.61",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 64,
+        "date": "24/05/2023",
+        "transaction_id": "7586798262",
+        "transaction_description": "Interest Amount Amortization - <5/12>",
+        "transaction_point": "0",
+        "transaction_amount": "797.68",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 65,
+        "date": "24/05/2023",
+        "transaction_id": "7586798267",
+        "transaction_description": "IGST-CI@18%",
+        "transaction_point": "0",
+        "transaction_amount": "143.58",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 66,
+        "date": "24/05/2023",
+        "transaction_id": "7586798279",
+        "transaction_description": "Principal Amount Amortization - <5/12>",
+        "transaction_point": "0",
+        "transaction_amount": "140.86",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 67,
+        "date": "28/05/2023",
+        "transaction_id": "7599546741",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "8082.12",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 68,
+        "date": "28/05/2023",
+        "transaction_id": "7599546854",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "256.61",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 69,
+        "date": "04/06/2023",
+        "transaction_id": "7633813285",
+        "transaction_description": "ZUDIO A UNIT OF TRENT KOZHIKODE IN",
+        "transaction_point": "61",
+        "transaction_amount": "309.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 70,
+        "date": "08/06/2023",
+        "transaction_id": "7644141008",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "52.39",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 71,
+        "date": "11/06/2023",
+        "transaction_id": "7662349943",
+        "transaction_description": "NESTO HYPERMARKET CALICUT IN",
+        "transaction_point": "371",
+        "transaction_amount": "1858.14",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 72,
+        "date": "18/06/2023",
+        "transaction_id": "7690426570",
+        "transaction_description": "NESTO HYPERMARKET CALICUT IN",
+        "transaction_point": "197",
+        "transaction_amount": "989.88",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 73,
+        "date": "20/06/2023",
+        "transaction_id": "7692875821",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "2848.02",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 74,
+        "date": "24/06/2023",
+        "transaction_id": "7714644758",
+        "transaction_description": "Interest Amount Amortization - <6/12>",
+        "transaction_point": "0",
+        "transaction_amount": "702.53",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 75,
+        "date": "25/06/2023",
+        "transaction_id": "7714644761",
+        "transaction_description": "IGST-CI@18%",
+        "transaction_point": "0",
+        "transaction_amount": "126.46",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 76,
+        "date": "24/06/2023",
+        "transaction_id": "7714644770",
+        "transaction_description": "Principal Amount Amortization - <6/12>",
+        "transaction_point": "0",
+        "transaction_amount": "7236.01",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 77,
+        "date": "28/06/2023",
+        "transaction_id": "7725240384",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "8065.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 78,
+        "date": "28/06/2023",
+        "transaction_id": "7730778429",
+        "transaction_description": "AMAZON WEB SERVICES MUMBAI IN",
+        "transaction_point": "0",
+        "transaction_amount": "2.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 79,
+        "date": "28/06/2023",
+        "transaction_id": "7731068480",
+        "transaction_description": "AMAZON WEB SERVICES MUMBAI IN",
+        "transaction_point": "0",
+        "transaction_amount": "2.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 80,
+        "date": "05/07/2023",
+        "transaction_id": "7761313913",
+        "transaction_description": "ICAI CPABI NOIDA IN",
+        "transaction_point": "8",
+        "transaction_amount": "400.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 81,
+        "date": "09/07/2023",
+        "transaction_id": "7775776292",
+        "transaction_description": "NESTO HYPERMARKET CALICUT IN",
+        "transaction_point": "282",
+        "transaction_amount": "1411.40",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 82,
+        "date": "12/07/2023",
+        "transaction_id": "7782617583",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "1811.40",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 83,
+        "date": "20/07/2023",
+        "transaction_id": "7818719208",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "100.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 84,
+        "date": "24/07/2023",
+        "transaction_id": "7837559199",
+        "transaction_description": "Interest Amount Amortization - <7/12>",
+        "transaction_point": "0",
+        "transaction_amount": "606.11",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 85,
+        "date": "24/07/2023",
+        "transaction_id": "7837559204",
+        "transaction_description": "IGST-CI@18%",
+        "transaction_point": "0",
+        "transaction_amount": "109.10",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 86,
+        "date": "24/07/2023",
+        "transaction_id": "7837559213",
+        "transaction_description": "Principal Amount Amortization - <7/12>",
+        "transaction_point": "0",
+        "transaction_amount": "7332.43",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 87,
+        "date": "25/07/2023",
+        "transaction_id": "7842592140",
+        "transaction_description": "HILITE HORECA LLP KOZHIKODE IN",
+        "transaction_point": "5",
+        "transaction_amount": "255.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 88,
+        "date": "25/07/2023",
+        "transaction_id": "7843510556",
+        "transaction_description": "HAMEED BEEF RIBS HBR KOZHIKODE IN",
+        "transaction_point": "3",
+        "transaction_amount": "184.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 89,
+        "date": "25/07/2023",
+        "transaction_id": "7843642717",
+        "transaction_description": "MARUTI INSURANCE NAT KOLKATTA IN",
+        "transaction_point": "208",
+        "transaction_amount": "10438.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 90,
+        "date": "25/07/2023",
+        "transaction_id": "7844005476",
+        "transaction_description": "NESTO HYPERMARKET CALICUT IN",
+        "transaction_point": "73",
+        "transaction_amount": "368.90",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 91,
+        "date": "31/07/2023",
+        "transaction_id": "7860193265",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "100.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 92,
+        "date": "25/08/2023",
+        "transaction_id": "7969259918",
+        "transaction_description": "Reward redemption handling fee-Ord.No.CP000770063 dtd 280723",
+        "transaction_point": "0",
+        "transaction_amount": "99.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 93,
+        "date": "25/08/2023",
+        "transaction_id": "7969259922",
+        "transaction_description": "IGST-CI@18%",
+        "transaction_point": "0",
+        "transaction_amount": "17.82",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 94,
+        "date": "24/08/2023",
+        "transaction_id": "7965813388",
+        "transaction_description": "Interest Amount Amortization - <8/12>",
+        "transaction_point": "0",
+        "transaction_amount": "508.40",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 95,
+        "date": "24/08/2023",
+        "transaction_id": "7965813390",
+        "transaction_description": "IGST-CI@18%",
+        "transaction_point": "0",
+        "transaction_amount": "91.51",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 96,
+        "date": "24/08/2023",
+        "transaction_id": "7965813402",
+        "transaction_description": "Principal Amount Amortization - <8/12>",
+        "transaction_point": "0",
+        "transaction_amount": "7430.14",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 97,
+        "date": "16/08/2023",
+        "transaction_id": "7936639360",
+        "transaction_description": "Flipkart Internet PVT LTD BANGALORE IN",
+        "transaction_point": "32",
+        "transaction_amount": "1638.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 98,
+        "date": "27/08/2023",
+        "transaction_id": "7973537340",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "19093.54",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 99,
+        "date": "30/08/2023",
+        "transaction_id": "7995513972",
+        "transaction_description": "PAYTM NOIDA IN",
+        "transaction_point": "101",
+        "transaction_amount": "506.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 100,
+        "date": "31/08/2023",
+        "transaction_id": "8001578508",
+        "transaction_description": "AMAZON PAY INDIA PRIVATET BANGALORE IN",
+        "transaction_point": "23",
+        "transaction_amount": "1199.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 101,
+        "date": "01/09/2023",
+        "transaction_id": "8001474147",
+        "transaction_description": "Flipkart Internet PVT LTD BANGALORE IN",
+        "transaction_point": "-18",
+        "transaction_amount": "939.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 102,
+        "date": "08/09/2023",
+        "transaction_id": "8024192370",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "8410.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 103,
+        "date": "08/09/2023",
+        "transaction_id": "8029916959",
+        "transaction_description": "CHICKING MANSOR ERNAKULAM IN",
+        "transaction_point": "11",
+        "transaction_amount": "571.20",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 104,
+        "date": "07/09/2023",
+        "transaction_id": "8030506864",
+        "transaction_description": "Flipkart Internet PVT LTD BANGALORE IN",
+        "transaction_point": "14",
+        "transaction_amount": "748.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 105,
+        "date": "24/09/2023",
+        "transaction_id": "8092543702",
+        "transaction_description": "Interest Amount Amortization - <9/12>",
+        "transaction_point": "0",
+        "transaction_amount": "409.40",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 106,
+        "date": "24/09/2023",
+        "transaction_id": "8092543705",
+        "transaction_description": "IGST-CI@18%",
+        "transaction_point": "0",
+        "transaction_amount": "73.69",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 107,
+        "date": "24/09/2023",
+        "transaction_id": "8092543718",
+        "transaction_description": "Principal Amount Amortization - <9/12>",
+        "transaction_point": "0",
+        "transaction_amount": "7529.14",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 108,
+        "date": "14/09/2023",
+        "transaction_id": "8055652445",
+        "transaction_description": "CHICKING MANSOR ERNAKULAM IN",
+        "transaction_point": "11",
+        "transaction_amount": "571.20",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 109,
+        "date": "15/09/2023",
+        "transaction_id": "8058832093",
+        "transaction_description": "RAZ*RELIANCE RETAIL LI HTTPS://WWW.JIN",
+        "transaction_point": "36",
+        "transaction_amount": "181.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 110,
+        "date": "23/09/2023",
+        "transaction_id": "8087402248",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "3460.07",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 111,
+        "date": "24/09/2023",
+        "transaction_id": "8095134084",
+        "transaction_description": "KFWFB Gurgaon IN",
+        "transaction_point": "40",
+        "transaction_amount": "2000.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 112,
+        "date": "27/09/2023",
+        "transaction_id": "8101209150",
+        "transaction_description": "INFINITY PAYMENT RECEIVED THANK YOU",
+        "transaction_point": "0",
+        "transaction_amount": "3460.07",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 113,
+        "date": "28/09/2023",
+        "transaction_id": "8110914569",
+        "transaction_description": "Flipkart Internet PVT LTD Bangalore IN",
+        "transaction_point": "-9",
+        "transaction_amount": "499.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 114,
+        "date": "07/10/2023",
+        "transaction_id": "8148992689",
+        "transaction_description": "PALAKKAL FUELS WAYANAD IN",
+        "transaction_point": "0",
+        "transaction_amount": "1097.80",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 115,
+        "date": "07/10/2023",
+        "transaction_id": "8149263340",
+        "transaction_description": "MSW*EN URU CHARITABLE S Wayanad IN",
+        "transaction_point": "8",
+        "transaction_amount": "400.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 116,
+        "date": "07/10/2023",
+        "transaction_id": "8150553512",
+        "transaction_description": "WHITEHOUSE RESTAURANT KOZHIKODE IN",
+        "transaction_point": "16",
+        "transaction_amount": "831.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 117,
+        "date": "08/10/2023",
+        "transaction_id": "8154976352",
+        "transaction_description": "PAZHERI GOLD PALAKKAD IN",
+        "transaction_point": "130",
+        "transaction_amount": "6500.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 118,
+        "date": "09/11/2023",
+        "transaction_id": "8307626525",
+        "transaction_description": "Cashback@ HPCL Fuel Purchases",
+        "transaction_point": "0",
+        "transaction_amount": "21.83",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 119,
+        "date": "10/11/2023",
+        "transaction_id": "8312898909",
+        "transaction_description": "Annual Fee reversal for 1st yr",
+        "transaction_point": "0",
+        "transaction_amount": "500.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 120,
+        "date": "10/11/2023",
+        "transaction_id": "8312898913",
+        "transaction_description": "IGST-Rev-BI@18%",
+        "transaction_point": "0",
+        "transaction_amount": "90.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 121,
+        "date": "22/10/2023",
+        "transaction_id": "8229351387",
+        "transaction_description": "UPI Payment Received",
+        "transaction_point": "0",
+        "transaction_amount": "16808.86",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 122,
+        "date": "24/10/2023",
+        "transaction_id": "8237314506",
+        "transaction_description": "Interest Amount Amortization - <10/12>",
+        "transaction_point": "0",
+        "transaction_amount": "309.07",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 123,
+        "date": "24/10/2023",
+        "transaction_id": "8237314507",
+        "transaction_description": "IGST-CI@18%",
+        "transaction_point": "0",
+        "transaction_amount": "55.63",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 124,
+        "date": "24/10/2023",
+        "transaction_id": "8237314521",
+        "transaction_description": "Principal Amount Amortization - <10/12>",
+        "transaction_point": "0",
+        "transaction_amount": "7629.47",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 125,
+        "date": "13/10/2023",
+        "transaction_id": "8185809646",
+        "transaction_description": "NOBLE PETROLUEM KOZHIKODE IN",
+        "transaction_point": "0",
+        "transaction_amount": "545.71",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 126,
+        "date": "15/10/2023",
+        "transaction_id": "8187029621",
+        "transaction_description": "Super saver - Offus - Fuel surcharge REV",
+        "transaction_point": "0",
+        "transaction_amount": "10.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 127,
+        "date": "14/10/2023",
+        "transaction_id": "8190196939",
+        "transaction_description": "HILITE FOOD AND BEVERAG Calicut IN",
+        "transaction_point": "38",
+        "transaction_amount": "190.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 128,
+        "date": "14/10/2023",
+        "transaction_id": "8190629058",
+        "transaction_description": "NESTO HYPERMARKET CALICUT IN",
+        "transaction_point": "504",
+        "transaction_amount": "2524.40",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 129,
+        "date": "14/10/2023",
+        "transaction_id": "8195777432",
+        "transaction_description": "Flipkart Internet PVT LTD Bangalore IN",
+        "transaction_point": "14",
+        "transaction_amount": "724.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 130,
+        "date": "14/10/2023",
+        "transaction_id": "8195787526",
+        "transaction_description": "Flipkart Internet PVT LTD Bangalore IN",
+        "transaction_point": "21",
+        "transaction_amount": "1051.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 131,
+        "date": "14/10/2023",
+        "transaction_id": "8195824320",
+        "transaction_description": "AMAZON PAY INDIA PRIVATET Bangalore IN",
+        "transaction_point": "33",
+        "transaction_amount": "1676.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 132,
+        "date": "21/10/2023",
+        "transaction_id": "8232783768",
+        "transaction_description": "Flipkart Internet PVT LTD Bangalore IN",
+        "transaction_point": "7",
+        "transaction_amount": "399.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 133,
+        "date": "23/10/2023",
+        "transaction_id": "8240355997",
+        "transaction_description": "AMAZON PAY INDIA PRIVATET Bangalore IN",
+        "transaction_point": "-11",
+        "transaction_amount": "599.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 134,
+        "date": "25/10/2023",
+        "transaction_id": "8243819688",
+        "transaction_description": "MSW*PILAKKANDI ABDUL GA Wayanad IN",
+        "transaction_point": "32",
+        "transaction_amount": "1643.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 135,
+        "date": "25/10/2023",
+        "transaction_id": "8243824697",
+        "transaction_description": "COCO MANJERI MANJERI BAZAR IN",
+        "transaction_point": "0",
+        "transaction_amount": "1644.89",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 136,
+        "date": "25/10/2023",
+        "transaction_id": "8244544558",
+        "transaction_description": "WHITEHOUSE RESTAURANT KOZHIKODE IN",
+        "transaction_point": "12",
+        "transaction_amount": "600.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 137,
+        "date": "26/10/2023",
+        "transaction_id": "8245328913",
+        "transaction_description": "Super saver - Offus - Fuel surcharge REV",
+        "transaction_point": "0",
+        "transaction_amount": "16.45",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 138,
+        "date": "26/10/2023",
+        "transaction_id": "8248337210",
+        "transaction_description": "WHITEHOUSE RESTAURANT KOZHIKODE IN",
+        "transaction_point": "104",
+        "transaction_amount": "5248.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 139,
+        "date": "26/10/2023",
+        "transaction_id": "8251086118",
+        "transaction_description": "KODUVALLY S C CO SOC KOZHIKODE IN",
+        "transaction_point": "0",
+        "transaction_amount": "1641.14",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 140,
+        "date": "29/10/2023",
+        "transaction_id": "8261523913",
+        "transaction_description": "PALAZHI PETROLEUM CALICUT IN",
+        "transaction_point": "0",
+        "transaction_amount": "544.74",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 141,
+        "date": "30/10/2023",
+        "transaction_id": "8262405079",
+        "transaction_description": "Super saver - Offus - Fuel surcharge REV",
+        "transaction_point": "0",
+        "transaction_amount": "10.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 142,
+        "date": "01/11/2023",
+        "transaction_id": "8267982360",
+        "transaction_description": "NEFT PAYMENT RECEIVED",
+        "transaction_point": "0",
+        "transaction_amount": "1.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 143,
+        "date": "31/10/2023",
+        "transaction_id": "8270788154",
+        "transaction_description": "Flipkart Internet PVT LTD Bangalore IN",
+        "transaction_point": "-7",
+        "transaction_amount": "388.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 144,
+        "date": "31/10/2023",
+        "transaction_id": "8270843958",
+        "transaction_description": "Flipkart Internet PVT LTD Bangalore IN",
+        "transaction_point": "-7",
+        "transaction_amount": "399.00",
+        "transaction_type": "CR"
+    },
+    {
+        "id": 145,
+        "date": "02/11/2023",
+        "transaction_id": "8279879337",
+        "transaction_description": "ARABIAN PALACE KOZHIKODE IN",
+        "transaction_point": "11",
+        "transaction_amount": "550.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 146,
+        "date": "02/11/2023",
+        "transaction_id": "8280535376",
+        "transaction_description": "Godaddy India Domains an Gurgaon IN",
+        "transaction_point": "21",
+        "transaction_amount": "1078.02",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 147,
+        "date": "08/11/2023",
+        "transaction_id": "8312127983",
+        "transaction_description": "CHICKING KOZHIKODE IN",
+        "transaction_point": "60",
+        "transaction_amount": "3019.00",
+        "transaction_type": "DB"
+    },
+    {
+        "id": 148,
+        "date": "23/10/2023",
+        "transaction_id": "8230041594",
+        "transaction_description": "NEFT PAYMENT RECEIVED",
+        "transaction_point": "0",
+        "transaction_amount": "1.00",
+        "transaction_type": "CR"
+    }
+]
