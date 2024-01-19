@@ -145,8 +145,7 @@ class YouPayClientTransactionData(AbstractDateTime):
                                                    "processing fee")
     paid_amount = models.DecimalField(decimal_places=4, max_digits=12,
                                       null=True, blank=True,
-                                      help_text="used to store gateway total "
-                                                "amount paid by customer")
+                                      help_text="used to store gateway total amount paid by customer")
     gateway_charge = models.DecimalField(
         decimal_places=4, max_digits=12, null=True, blank=True,
         help_text="Used to store calculated gateway charges "

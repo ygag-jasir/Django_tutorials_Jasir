@@ -44,8 +44,12 @@ INSTALLED_APPS = [
     'youpayclient',
     'customizeAdmin',
     'UserApp',
+    'whitelabelDemo',
     
+    #packages
     "corsheaders",
+    
+    
 ]
 
 MIDDLEWARE = [
@@ -63,6 +67,12 @@ MIDDLEWARE = [
     # 'abstract_models.middleware.SampleMiddleware',
     'abstract_models.class_based_middleware.ClassAMiddleware',
     'abstract_models.class_based_middleware.ClassBMiddleware',
+    
+    
+    # whitelabel middleware
+    'whitelabelDemo.middleware.WhiteLabelMiddleware',
+    
+    
     
 ]
 CORS_ORIGIN_ALLOW_ALL = True
