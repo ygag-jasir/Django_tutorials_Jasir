@@ -54,6 +54,10 @@ postgres=# create database ygpay_db_main_copy with template ygpay_db_main owner 
 
 `celery -A tasks worker --loglevel=INFO`
 
+`celery -A django_tutorials worker -l info -B`
+
+`celery -A django_tutorials worker -l info -B  --scheduler django_celery_beat.schedulers:DatabaseScheduler`
+
 
 ```
 

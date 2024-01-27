@@ -45,11 +45,13 @@ INSTALLED_APPS = [
     'customizeAdmin',
     'UserApp',
     'whitelabelDemo',
-    
-    #packages
+    'Transactions',
+
+    # packages
     "corsheaders",
-    
-    
+    "django_celery_beat",
+
+
 ]
 
 MIDDLEWARE = [
@@ -62,18 +64,18 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    
-    #custome middleware
+
+    # custome middleware
     # 'abstract_models.middleware.SampleMiddleware',
     'abstract_models.class_based_middleware.ClassAMiddleware',
     'abstract_models.class_based_middleware.ClassBMiddleware',
-    
-    
+
+
     # whitelabel middleware
     'whitelabelDemo.middleware.WhiteLabelMiddleware',
-    
-    
-    
+
+
+
 ]
 CORS_ORIGIN_ALLOW_ALL = True
 
@@ -150,13 +152,15 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-WAIT_LOCK_DEFAULT_TIMEOUT="10"
-WAIT_LOCK_DEFAULT_WAIT_DURATION="10"
-WAIT_LOCK_DEFAULT_MAX_RETRIES="3"
+WAIT_LOCK_DEFAULT_TIMEOUT = "10"
+WAIT_LOCK_DEFAULT_WAIT_DURATION = "10"
+WAIT_LOCK_DEFAULT_MAX_RETRIES = "3"
 
 YOUPAY_API_SECRET = '83ba042aaa271f7508e9c91dc647a5309f04319a5a1f172e3c89ca9ee45a3bdb'
 
 # REDIS configurations
-REDIS_HOST =  'localhost'
+REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
-REDIS_LOCKS_DB =  11
+REDIS_LOCKS_DB = 11
+
+BROKER_URL = 'redis://localhost:6379/2'
